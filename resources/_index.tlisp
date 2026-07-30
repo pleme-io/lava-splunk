@@ -4,7 +4,6 @@
 (deflava-provider
   :splunk
   :resources
-  (:splunk-admin-saml-groups
-    :splunk-indexes
-    :splunk-inputs-http-event-collector
-    :splunk-saved-searches))
+  (
+    :splunk-admin-saml-groups :splunk-indexes
+    :splunk-inputs-http-event-collector :splunk-saved-searches))
